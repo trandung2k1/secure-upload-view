@@ -1,0 +1,7 @@
+<% files.forEach(function (file) { %>
+<p>
+    <a href="image/<%= file._id %>"> <%= file.name %> </a>
+
+    <img src="image/<%= file._id %>" style="width: 300px" />
+</p>
+<% }) %>
